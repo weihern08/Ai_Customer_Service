@@ -1,0 +1,22 @@
+# Local secrets / environment (database passwords, encryption key)
+config/config.php
+config/config.cpanel.php
+
+# Created by the installer on each server
+storage/installed.lock
+
+# Runtime data
+storage/logs/*.log
+uploads/tickets/*
+!uploads/tickets/.gitkeep
+
+# Build artifacts
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
